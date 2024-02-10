@@ -49,7 +49,7 @@
         // Function to fetch data from Azure SQL Server and display it in the table
         async function fetchData() {
             try {
-                const response = await fetch('http://localhost:3000/task3');
+                const response = await fetch('/task3');
                 const data = await response.json();
                 
                 const productData = document.getElementById('productData');
